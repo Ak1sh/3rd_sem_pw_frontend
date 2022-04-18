@@ -16,10 +16,6 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-
-    
-
-    <!-- Popper JS positioning engine,purpose is to calculate the position of an element to make it possible to position it near a given reference element-->
     
   </head>
   <body>
@@ -171,7 +167,7 @@
         }
         if (user.length <= 3 || user.length > 20) {
           document.getElementById("username").innerHTML =
-            " ** Username lenght must be between 3 and 20";
+            " ** Username length must be between 3 and 20";
           return false;
         }
         if (!isNaN(user)) {
